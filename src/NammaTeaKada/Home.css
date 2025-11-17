@@ -49,6 +49,7 @@ main{
   .cont1 {
     padding: 1rem;
     height: auto;
+    width: 100px;
     background-size: cover;
   }
   .home-title {
