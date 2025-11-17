@@ -51,6 +51,21 @@
     padding: 10px 16px;
   }
 }
+@media (max-width: 768px) {
+  .package-outer {
+    padding: 2rem 1rem;
+  }
+  .package-header h1 {
+    font-size: 1.8rem;
+  }
+  .package-list {
+    gap: 1.5rem;
+  }
+  .pack1, .pack2, .pack3 {
+    width: 90%;
+    padding: 1.5rem;
+  }
+}
 @media (max-width: 600px) {
   .package-header h1 {
     font-size: 1.1rem;
@@ -67,6 +82,19 @@
     font-size: 0.9rem;
     padding: 8px 10px;
     border-radius: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .package-header h1 {
+    font-size: 1.5rem;
+  }
+  .pack1, .pack2, .pack3 {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  .pack1 > button, .pack2 > button, .pack3 > button {
+    font-size: 0.85rem;
+    padding: 0.8rem;
   }
 }
 .pack1{
@@ -199,4 +227,4 @@
     
   }
 
-} 
+}

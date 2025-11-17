@@ -42,3 +42,32 @@
   font-size: 1.3rem;
   font-weight: 700;
 }
+
+/* Enhanced responsiveness for Services */
+@media (max-width: 768px) {
+  .services {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+  .services-list {
+    gap: 1.5rem;
+  }
+  .service-card {
+    width: 220px;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  .services-list {
+    gap: 1rem;
+  }
+  .service-card {
+    width: 180px;
+    padding: 1rem;
+  }
+}

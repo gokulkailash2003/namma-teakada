@@ -142,6 +142,24 @@
     border-radius: 8px;
   }
 }
+@media (max-width: 768px) {
+  .contact {
+    padding: 1.5rem 1rem;
+    font-size: 1rem;
+  }
+  .contact-form {
+    gap: 0.8rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+  .contact-form button {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+}
 @media (max-width: 600px) {
   .contact {
     padding: 1rem 0.2rem;
@@ -167,6 +185,24 @@
     font-size: 0.95rem;
     padding: 0.5rem 0.7rem;
     border-radius: 6px;
+  }
+}
+@media (max-width: 480px) {
+  .contact {
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  .contact-form {
+    gap: 0.5rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+  .contact-form button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
   }
 }
 .contact-message .emoji {
