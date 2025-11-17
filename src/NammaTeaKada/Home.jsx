@@ -27,7 +27,7 @@ function Home() {
 
       <section style={{backgroundColor: "black"}} className="section2">
         <div className="img">
-          <img src="src/assets/images/IMG_0640.JPG" alt="image" />
+          <img src="public/assets/images/IMG_0640.JPG" alt="image" />
         </div>
         <div  className="cont2">
         <h2 className="about-title">The Artistry Behind Our Photography</h2>
