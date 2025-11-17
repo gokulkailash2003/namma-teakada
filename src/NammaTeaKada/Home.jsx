@@ -9,7 +9,7 @@ function Home() {
         <div className="cont1">
         <h1 className="home-title">
           <span className="home-highlight">We Capture,</span><br />
-          <span className="home-shine" >You Shine.</span>
+          <span className="home-shine" style={{marginLeft:"-50px"}} >You Shine.</span>
         </h1>
         <div className="home-para">
         <p className="subtitle">
