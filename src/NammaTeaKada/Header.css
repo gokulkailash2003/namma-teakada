@@ -44,7 +44,7 @@
       background: black;
       color: white;
       box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
-      position: sticky; /* Changed from fixed to sticky */
+      position: fixed; /* Reverted to fixed positioning */
       top: 0;
       left: 0;
       width: 100%;
@@ -424,26 +424,26 @@
   border-bottom: 6px solid transparent;
 }
 
-/* Adjust header to avoid hiding content */
+/* Reverting to fixed positioning for the header */
 .header {
-  position: sticky; /* Changed from fixed to sticky */
+  position: fixed;
   top: 0;
   z-index: 1000;
 }
 
-/* Increase margin-top for all pages */
-body {
-  margin-top: 80px; /* Adjusted to ensure content is not hidden */
+/* Adding a utility class to ensure content starts below the header */
+.main-content {
+  margin-top: 70px; /* Adjusted to match the header height */
 }
 
 @media (max-width: 900px) {
-  body {
-    margin-top: 70px; /* Adjusted for smaller devices */
+  .main-content {
+    margin-top: 60px; /* Adjusted for smaller devices */
   }
 }
 
 @media (max-width: 600px) {
-  body {
-    margin-top: 60px; /* Adjusted for mobile devices */
+  .main-content {
+    margin-top: 50px; /* Adjusted for mobile devices */
   }
 }
