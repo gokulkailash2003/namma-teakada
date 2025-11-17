@@ -71,7 +71,7 @@ main{
   }
   .img img {
     height: 32vh !important;
-    width: 100%;
+    width: 300%;
     object-fit: cover;
     border-radius: 12px;
   }
