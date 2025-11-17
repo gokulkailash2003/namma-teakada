@@ -44,7 +44,7 @@
       background: black;
       color: white;
       box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
-      position: fixed;
+      position: sticky; /* Changed from fixed to sticky */
       top: 0;
       left: 0;
       width: 100%;
@@ -422,4 +422,28 @@
   border-left: 6px solid hsl(38, 100%, 50%);
   border-top: 6px solid transparent;
   border-bottom: 6px solid transparent;
+}
+
+/* Adjust header to avoid hiding content */
+.header {
+  position: sticky; /* Changed from fixed to sticky */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Increase margin-top for all pages */
+body {
+  margin-top: 80px; /* Adjusted to ensure content is not hidden */
+}
+
+@media (max-width: 900px) {
+  body {
+    margin-top: 70px; /* Adjusted for smaller devices */
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 60px; /* Adjusted for mobile devices */
+  }
 }
