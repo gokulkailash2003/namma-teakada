@@ -27,7 +27,7 @@ main{
   align-items: center;
   text-align: center; */
   padding: 2rem;
-  background-image: url('/assets/images/IMG_0646.JPG');
+  background-image: url('src/assets/images/IMG_0646.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

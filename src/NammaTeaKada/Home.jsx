@@ -27,7 +27,7 @@ function Home() {
 
       <section style={{backgroundColor: "black"}} className="section2">
         <div className="img">
-          <img src="/assets/images/IMG_0640.JPG" alt="image" />
+          <img src="src/assets/images/IMG_0640.JPG" alt="image" />
         </div>
         <div  className="cont2">
         <h2 className="about-title">The Artistry Behind Our Photography</h2>
@@ -54,24 +54,24 @@ function Home() {
         >
           <div className="scroll-img">
             {/* <img src="nammateakada/src/assets/images/tom.gif" alt="GIF" /> */}
-            <img src="/assets/images/IMG_0632.JPG" alt="Image 1" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0633.JPG" alt="Image 2" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0634.JPG" alt="Image 3" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0635.JPG" alt="Image 4" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0636.JPG" alt="Image 5" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0637.JPG" alt="Image 6" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0638.JPG" alt="Image 7" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0639.JPG" alt="Image 8" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0640.JPG" alt="Image 9" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0641.JPG" alt="Image 10" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0642.JPG" alt="Image 11" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0643.JPG" alt="Image 12" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0644.JPG" alt="Image 13" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0645.JPG" alt="Image 14" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0646.JPG" alt="Image 15" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0647.JPG" alt="Image 16" style={{ height: '0vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0648.JPG" alt="Image 17" style={{ height: '80vh', marginRight: '10px' }} />
-            <img src="/assets/images/IMG_0649.JPG" alt="Image 18" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0632.JPG" alt="Image 1" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0633.JPG" alt="Image 2" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0634.JPG" alt="Image 3" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0635.JPG" alt="Image 4" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0636.JPG" alt="Image 5" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0637.JPG" alt="Image 6" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0638.JPG" alt="Image 7" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0639.JPG" alt="Image 8" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0640.JPG" alt="Image 9" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0641.JPG" alt="Image 10" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0642.JPG" alt="Image 11" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0643.JPG" alt="Image 12" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0644.JPG" alt="Image 13" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0645.JPG" alt="Image 14" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0646.JPG" alt="Image 15" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0647.JPG" alt="Image 16" style={{ height: '0vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0648.JPG" alt="Image 17" style={{ height: '80vh', marginRight: '10px' }} />
+            <img src="src/assets/images/IMG_0649.JPG" alt="Image 18" style={{ height: '80vh', marginRight: '10px' }} />
         </div>
       </marquee>
     </section> 
