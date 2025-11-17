@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures the app is served correctly on Vercel
+  base: '/', // Ensures the app is served correctly on Vercel
   server: {
     port: 3000,
     strictPort: false,
