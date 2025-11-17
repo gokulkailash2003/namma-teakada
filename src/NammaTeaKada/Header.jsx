@@ -33,7 +33,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img className="logo-image" src="src/assets/images/IMG_0650.PNG" alt="logo" />
+        <img className="logo-image" src="/assets/images/IMG_0650.PNG" alt="logo" />
         <h2><a href='/' style={{color: "hsl(38, 100%, 50%)", textDecoration: "none"}}>NAMMA TEAKADA</a></h2>
       </div>
       <nav className="nav">
