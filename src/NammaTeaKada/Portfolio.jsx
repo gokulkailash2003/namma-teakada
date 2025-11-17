@@ -97,7 +97,7 @@ function Portfolio() {
                 </div>
               </div>
               <div className='wedding-photos-gallery'>
-                <img style={{height:"90%", marginRight:"-80px"}} src="src\assets\images\portfolio\baby photoshoot\baby photoshoot.jpg" alt="Baby Photoshoot" />
+                <img style={{height:"90%", marginRight:"-80px"}} src="assets/images/portfolio/baby photoshoot/baby photoshoot.jpg" alt="Baby Photoshoot" />
             </div>
          </section>
       </section>
