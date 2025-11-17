@@ -41,14 +41,14 @@ function Portfolio() {
                 </div>
             </div>
             <div className='wedding-photos-gallery'>
-              <img src="src\assets\images\portfolio\wedding\Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
+              <img src="assets/images/portfolio/wedding/Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
             </div>
         </section>
       </section >
       <section ref={refs['Birthday events']}>
            <section className='wedding-photos-section'>
             <div className='wedding-photos-gallery'>
-              <img src="src\assets\images\portfolio\birthday\Birthday photo.jpeg" alt="Birthday Photo" />
+              <img src="assets/images/portfolio/birthday/Birthday photo.jpeg" alt="Birthday Photo" />
             </div>
             <div className='wedding-photos-content'>
                 <h2 style={{color:"hsl(38,100%,50%)"}}>Birthday Photographs</h2>
@@ -69,14 +69,14 @@ function Portfolio() {
                 </div>
             </div>
             <div className='wedding-photos-gallery'>
-              <img src="src\assets\images\portfolio\puberty\puberty photo.jpeg" alt="Puberty Photo" />
+              <img src="assets/images/portfolio/puberty/puberty photo.jpeg" alt="Puberty Photo" />
             </div>
           </section>
       </section>
       <section ref={refs['Corporate events']}>
           <section className='wedding-photos-section'>
               <div className='wedding-photos-gallery'>
-                <img src="src\assets\images\portfolio\corporate\corporate photo.jpeg" alt="Corporate Event Photo" />
+                <img src="assets/images/portfolio/corporate/corporate photo.jpeg" alt="Corporate Event Photo" />
             </div>
             <div className='wedding-photos-content'>
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Corporate Event Photographs</h2>
@@ -104,7 +104,7 @@ function Portfolio() {
       <section ref={refs['Model photoshoot']}>
              <section className='wedding-photos-section'>
               <div className='wedding-photos-gallery'>
-                <img src="src\assets\images\portfolio\model photoshoot\model photoshoot.jpeg" alt="Marriage Photo" />
+                <img src="assets/images/portfolio/model photoshoot/model photoshoot.jpeg" alt="Marriage Photo" />
             </div>
             <div className='wedding-photos-content'>
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Model Photoshoot</h2>
@@ -125,14 +125,14 @@ function Portfolio() {
                 </div>
               </div>
               <div className='wedding-photos-gallery'>
-                <img src="src\assets\images\portfolio\wedding\Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
+                <img src="assets/images/portfolio/wedding/Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
             </div>
          </section>
       </section>
       <section ref={refs['Ad Shoot']}>
          <section className='wedding-photos-section'>
               <div className='wedding-photos-gallery'>
-                <img src="src\assets\images\portfolio\wedding\Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
+                <img src="assets/images/portfolio/wedding/Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
             </div>
             <div className='wedding-photos-content'>
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Ad Shoot</h2>
@@ -153,7 +153,7 @@ function Portfolio() {
                 </div>
               </div>
               <div className='wedding-photos-gallery'>
-                <img  src="src\assets\images\portfolio\wedding\Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
+                <img  src="assets/images/portfolio/wedding/Grand Hindu Wedding Ceremony.jpeg" alt="Marriage Photo" />
             </div>
          </section>
       </section>
