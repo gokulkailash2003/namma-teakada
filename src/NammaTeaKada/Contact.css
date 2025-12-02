@@ -1,0 +1,200 @@
+/* src/NammaTeaKada/Contact.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap');
+
+
+.contact {
+  padding: 4rem 2rem;
+  background: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px rgba(252,182,159,0.10);
+  font-family: 'oswald', sans-serif;
+}
+.contact-info p {
+  margin: 0.5rem 0;
+  font-size: 1.15rem;
+  color: #222;
+}
+.contact-form {
+  margin: 2.5rem auto;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: 1px solid hsl(38, 100%, 50%);
+  font-size: 1.05rem;
+  font-family: inherit;
+}
+.contact-form button {
+  padding: 0.85rem;
+  border-radius: 10px;
+  background: black;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s, transform 0.2s;
+}
+.contact-form button:hover {
+  background: hsl(38, 100%, 50%);
+  color: #222;
+  transform: scale(1.05);
+}
+.social-links {
+  margin-top: 2.5rem;
+}
+.social-links a {
+  margin: 0 1.2rem;
+  color: hsl(38, 100%, 50%);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s, transform 0.2s;
+}
+.social-links a:hover {
+  color: #222;
+  transform: scale(1.08);
+}
+
+.service-selection{
+  border: 1px solid hsl(38, 100%, 50%);
+  border-radius: 8px;
+  padding: 0.85rem;
+  display: flex;
+  align-items: left;
+}
+.service-selection select{
+  border: none;
+  font-size: 1.05rem;
+  font-family: inherit;
+  outline: none;
+}
+.contact-message-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-message {
+  position: relative;
+  left: unset;
+  top: unset;
+  transform: none;
+  min-width: 320px;
+  max-width: 90vw;
+  padding: 1.2rem 2rem;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  z-index: 9999;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  opacity: 0;
+  animation: fadeInBox 0.7s forwards, fadeOutBox 0.7s 2.8s forwards;
+  background: black;
+  color: hsl(38, 100%, 50%);
+  border: 2px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* TABLET RESPONSIVENESS (max-width: 900px) */
+@media (max-width: 900px) {
+    .contact {
+        padding: 3rem 1.5rem;
+        margin-top: 100px;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact-info p {
+        font-size: 1.05rem;
+    }
+
+    .contact-form {
+        max-width: 380px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1rem;
+    }
+}
+
+/* MOBILE RESPONSIVENESS (max-width: 600px) */
+@media (max-width: 600px) {
+    .contact {
+        padding: 2rem 1rem;
+        margin-top: 150px;
+        border-radius: 16px;
+    }
+
+    .contact h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-info p {
+        font-size: 0.95rem;
+        margin: 0.4rem 0;
+    }
+
+    .contact-form {
+        max-width: 100%;
+        gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.7rem;
+        font-size: 0.95rem;
+    }
+
+    .contact-form button {
+        padding: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .success-message,
+    .error-message {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
+
+.contact-message .emoji {
+  font-size: 2.5rem;
+  margin-right: 10px;
+  animation: bounceEmoji 1.2s;
+}
+@keyframes bounceEmoji {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.3); }
+  60% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+@keyframes fadeInBox {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes fadeOutBox {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

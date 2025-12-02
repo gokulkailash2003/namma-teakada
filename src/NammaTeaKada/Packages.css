@@ -1,0 +1,216 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.package-outer{
+    height: auto;
+    font-family: 'oswald', sans-serif;
+    width: 100%;
+    color: hsl(0, 0%, 0%);
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: hsl(0, 0%, 100%);
+    /* box-shadow: 2px 2px 50px hsl(30, 13%, 19%) ; */
+}
+.package-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.package-header h1{
+    font-size: 36px;
+    color: hsl(38, 100%, 50%);
+    /* text-shadow: 2px 2px 4px hsl(38, 37%, 45%); */
+}
+.package-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    
+    
+}
+/* for tab view */
+@media (max-width: 900px) {
+  .package-outer{
+    margin-top: 90px;
+    /* width: 950px; */
+  }
+  .package-list {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+    
+  }
+  .pack1, .pack2, .pack3 {
+    width: 100vw;
+    min-width: 300px;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 16px;
+    /* margin-left: 20px; */
+    margin-bottom: 1rem;
+  }
+  .pack1>button, .pack2>button, .pack3>button {
+    width: 80vw;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px 16px;
+  }
+}
+/* for mobile view */
+@media (max-width: 600px) {
+  .package-outer{
+    margin-top: 100px;
+    /* margin-right: 50px; */
+    /* width: 400px; */
+  }
+  .package-header h1 {
+    font-size: 1.1rem;
+  }
+  .package-header h3 {
+    font-size: 0.95rem;
+  }
+  .pack1, .pack2, .pack3 {
+    font-size: 0.95rem;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .pack1>button, .pack2>button, .pack3>button {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+    border-radius: 8px;
+  }
+}
+.pack1{
+  /* border: 2px solid black; */
+  text-align: left;
+  padding: 20px;
+  height: auto;
+  width: 350px;
+  line-height: 25px;
+  box-shadow: 2px 2px 50px hsl(30, 13%, 19%);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  background-color: black;
+  
+}
+.pack1:hover{
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 50px 30px hsl(30, 13%, 19%);
+  /* cursor: pointer; */
+}
+.pack1> h2{
+  margin-bottom: 20px;
+}
+.pack1> button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 153px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 50px hsl(30, 13%, 19%);
+  width: 300px;
+}
+
+.pack2{
+  /* border: 2px solid black; */
+  text-align: left;
+  padding: 20px;
+  height: auto;
+  width: 350px;
+  line-height: 25px;
+  box-shadow: 2px 2px 50px hsl(30, 13%, 19%);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  background-color: black;
+ 
+}
+.pack2:hover{
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 50px 30px hsl(30, 13%, 19%);
+  /* cursor: pointer; */
+}
+.pack2> h2{
+  margin-bottom: 20px;
+}
+.pack2> button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 50px hsl(30, 13%, 19%);
+  width: 300px;
+}
+
+.pack3{
+  /* border: 2px solid black; */
+  text-align: left;
+  padding: 20px;
+  height: auto;
+  width: 350px;
+  line-height: 25px;
+  box-shadow: 2px 2px 50px hsl(30, 13%, 19%);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  background-color: black;
+  
+}
+.pack3:hover{
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 50px 30px hsl(30, 13%, 19%);
+  /* cursor: pointer; */
+}
+.pack3> h2{
+  margin-bottom: 20px;
+}
+.pack3> button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 50px hsl(30, 13%, 19%);
+  width: 300px;
+  
+}
+
+.package-outer button{
+  
+  transition: background-color 0.3s, color 0.3s;
+}
+.package-outer button:hover{
+  cursor: pointer;
+  background-color: hsl(38, 100%, 50%);
+  color: black;
+  transform: scale(1.05);
+  animation: btnGlow 1s infinite;
+  
+}
+  @keyframes btnGlow {
+ 
+  from {
+    box-shadow: 0px 0px 10px hsl(0, 0%, 0%);
+    
+  }
+  to{
+    box-shadow: 0px 0px 30px  hsl(38, 100%, 50%);
+
+    
+  }
+
+} 

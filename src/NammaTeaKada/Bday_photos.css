@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bday_photos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    margin-top: -630px;
+    height: 250vh;
+    position: relative;
+    background-color: black;
+}
+
+.bday1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+}
+.bday_img1{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+.bday_img2{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+.bday_img3{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+.bday_img4{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+.bday_img5{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+.bday_img6{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+
+.bday1 img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 1000px;
+} 
+
+
+.bday1 img:hover{transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+@media (max-width: 1600px) {
+  .bday_photos {
+    margin-top: 0 !important;
+    height: auto !important;
+    padding-top: 80px; /* Added extra space at the top */
+  }
+  .bday1 {
+    position: static !important;
+    margin-top: 0 !important;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bday_img1, .bday_img2, .bday_img3, .bday_img4, .bday_img5, .bday_img6 {
+    position: static;
+    width: 90%;
+    max-width: 350px;
+    margin-bottom: 24px;
+    left: unset;
+    top: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bday1 img {
+    width: 90%;
+    max-width: 350px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .bday_photos {
+    margin-top: 0 !important;
+    height: auto !important;
+    padding-top: 60px; /* Added extra space at the top */
+  }
+  .bday1 {
+    position: static !important;
+    margin-top: 0 !important;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bday_img1, .bday_img2, .bday_img3, .bday_img4, .bday_img5, .bday_img6 {
+    position: static;
+    width: 98%;
+    max-width: 320px;
+    margin-bottom: 16px;
+    left: unset;
+    top: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bday1 img {
+    width: 98%;
+    max-width: 320px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.footer{
+    margin-top: 800px;
+}

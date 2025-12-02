@@ -1,0 +1,355 @@
+
+.about-container {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.about-container h1 {
+  text-align: center;
+  /* color: #333; */
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-content > p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  /* color: #555; */
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  background: #000000;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
+}
+
+.about-section h2 {
+  /* color: #ff6f61; */
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.about-section p {
+  /* color: #666; */
+  line-height: 1.6;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section li {
+  /* color: #666; */
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.about-section li:before {
+  content: "";
+  /* color: #ff6f61; */
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 2rem 1rem;
+    margin-top: 150px;
+  }
+  
+  .about-container h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  
+  .about-content > p {
+    font-size: 1.1rem;
+  }
+  
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+  .about-team {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  .team-member-1,
+  .team-member-2,
+  .team-member-3,
+  .team-member-4,
+  .team-member-5 {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+  }
+  .team-member-1 img,
+  .team-member-2 img,
+  .team-member-3 img,
+  .team-member-4 img,
+  .team-member-5 img {
+    width: 80px;
+    height: 80px;
+  }
+  .team-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 1rem 0.5rem;
+    margin-top: 150px;
+  }
+  .about-container h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  .about-section {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .about-team {
+    gap: 1rem;
+  }
+  .team-member-1,
+  .team-member-2,
+  .team-member-3,
+  .team-member-4,
+  .team-member-5 {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+  .team-member-1 img,
+  .team-member-2 img,
+  .team-member-3 img,
+  .team-member-4 img,
+  .team-member-5 img {
+    width: 60px;
+    height: 60px;
+  }
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.team-members {
+  text-align: left;
+  margin-top: 4rem;
+  gap: 4rem;
+}
+
+.team-header{
+  text-align: left;
+  margin-bottom: 2rem;
+  color: hsl(38, 100%, 50%);
+}
+
+.about-team {
+  display: flex;
+  gap: 6rem;
+  /* border: 2px solid black; */
+  height: 920px;
+  width: 1180px;
+  position: relative;
+}
+.team-member-1{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 575px;
+  height: 300px;
+  position: absolute;
+  margin-left: 0;
+  margin-top: 0;
+  box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
+}
+.team-member-1:hover{
+  box-shadow: 8px 8px 30px 10px hsl(0, 0%, 0%);
+}
+.team-member-1 img{
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.team-member-2{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 575px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
+}
+.team-member-2:hover{
+  box-shadow: 8px 8px 30px 10px hsl(0, 0%, 0%);
+}
+.team-member-2 img{
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member-5{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+   background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 575px;
+  height: 300px;
+  position: absolute;
+  bottom: 300px;
+  left: 0;
+  /* top: 20px; */
+  box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
+}
+.team-member-5:hover{
+  box-shadow: 8px 8px 30px 10px hsl(0, 0%, 0%);
+}
+.team-member-5 img{
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member-3{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+   background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 575px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 300px;
+  box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
+}
+.team-member-3:hover{
+  box-shadow: 8px 8px 30px 10px hsl(0, 0%, 0%);
+}
+.team-member-3 img{
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member-4{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 575px;
+  height: 300px;
+  position: absolute;
+  margin-top: 30px;
+  bottom: 0px;
+  right: 300px;
+  top: 610px;
+  box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
+}
+.team-member-4:hover{
+  box-shadow: 8px 8px 30px 10px hsl(0, 0%, 0%);
+}
+.team-member-4 img{
+  width: 120px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .about-team {
+    flex-direction: column !important;
+    gap: 2rem !important;
+    width: 100% !important;
+    height: auto !important;
+    position: static !important;
+  }
+  .team-member-1,
+  .team-member-2,
+  .team-member-3,
+  .team-member-4,
+  .team-member-5 {
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 2rem !important;
+    box-sizing: border-box !important;
+  }
+  .team-member-1 img,
+  .team-member-2 img,
+  .team-member-3 img,
+  .team-member-4 img,
+  .team-member-5 img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+@media (max-width: 600px) {
+  .about-team {
+    gap: 1rem !important;
+  }
+  .team-member-1,
+  .team-member-2,
+  .team-member-3,
+  .team-member-4,
+  .team-member-5 {
+    padding: 0.5rem !important;
+    font-size: 0.95rem !important;
+  }
+  .team-member-1 img,
+  .team-member-2 img,
+  .team-member-3 img,
+  .team-member-4 img,
+  .team-member-5 img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+

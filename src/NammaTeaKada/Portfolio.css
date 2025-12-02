@@ -1,0 +1,126 @@
+/* src/NammaTeaKada/Portfolio.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-main{
+  font-family: "Oswald", sans-serif;
+  height: auto;
+  width: fit-content;
+  background-color: black;
+  margin-top: 70px;
+}
+
+.portfolio-title{
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: hsl(38, 100%, 50%);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.wedding-photos-section{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.wedding-photos-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  margin-top: 100px;
+  width: auto;
+  color: white;
+}
+
+.wedding-photos-gallery{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: auto;
+}
+
+.more-photos-link a{
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(38, 100%, 50%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  /* *{
+    background-color: black;
+  } */
+  .portfolio-main {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 70px;
+  }
+  .portfolio-title {
+    font-size: 1.7rem;
+  }
+  .wedding-photos-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .wedding-photos-content {
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+  .wedding-photos-gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .wedding-photos-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .black-space{
+  background-color: black;
+ 
+  height: 300px;
+}
+}
+@media (max-width: 600px) {
+ 
+  .portfolio-main{
+    margin-top: 105px;
+    height:auto;
+    
+  }
+  .portfolio-title {
+    font-size: 1.2rem;
+  }
+  .wedding-photos-content {
+    font-size: 0.95rem;
+    margin-top: 10px;
+  }
+  .wedding-photos-gallery img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .black-space{
+  background-color: black;
+  height: 1000px;
+}
+}
+.black-space{
+  background-color: black;
+  margin-top: 0;
+  gap: 0;
+  height: 200px;
+}
