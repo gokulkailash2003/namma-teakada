@@ -66,7 +66,7 @@ function Contact(){
           return;
         }
 
-        fetch('https://namma-teakada-1.onrender.com/send-mail', {
+        fetch('https://namma-teakada2.onrender.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
