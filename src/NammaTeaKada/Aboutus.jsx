@@ -52,7 +52,7 @@ function Aboutus() {
 
         <div className='about-team'>
           <div className='team-member-1'>
-           <img src="src\assets\images\team members\Satz 111.jpg" alt="Team mate 1" />
+           <img src="\assets\images\team members\Satz 111.jpg" alt="Team mate 1" />
           <h2 style={{color:"hsl(38, 100%, 50%)"}}>Sathish Kumar</h2>
           <p style={{fontWeight:"bold"}}>Founder</p>
           <p>Chief Editor & Colorist - The visionary behind our 
@@ -64,7 +64,7 @@ function Aboutus() {
           </div>
 
           <div className='team-member-2'>
-            <img src="src\assets\images\team members\member 1.jpg" alt="Team mate 2" />
+            <img src="\assets\images\team members\member 1.jpg" alt="Team mate 2" />
             <h2 style={{color:"hsl(38, 100%, 50%)"}}>Karthikeyan P</h2>
             <p style={{fontWeight:"bold"}}>Administrator</p>
             <p>The backbone of our studio’s operations, our administrative 
@@ -74,7 +74,7 @@ function Aboutus() {
           </div>
 
           <div className='team-member-5'>
-           <img src="src\assets\images\team members\member 5.PNG" alt="Team mate 1" />
+           <img src="\assets\images\team members\member 5.PNG" alt="Team mate 1" />
           <h2 style={{color:"hsl(38, 100%, 50%)"}}>Sathish Kumar C</h2>
           <p style={{fontWeight:"bold"}}>Administrator</p>
           <p>At the heart of our studio’s day-to-day operations, our 
@@ -85,7 +85,7 @@ function Aboutus() {
           </div>
 
            <div className='team-member-3'>
-            <img src="src\assets\images\team members\member 3.jpg" alt="Team mate 3" />
+            <img src="\assets\images\team members\member 3.jpg" alt="Team mate 3" />
             <h2 style={{color:"hsl(38, 100%, 50%)"}}>Karthikeyan</h2>
             <p style={{fontWeight:"bold"}}>Chief Photographer & Editor</p>
             <p>The visual storyteller of our studio, bringing moments to life 
@@ -95,7 +95,7 @@ function Aboutus() {
           </div>
 
            <div className='team-member-4'>
-            <img src="src\assets\images\team members\member 4.png" alt="Team mate 4" />
+            <img src="\assets\images\team members\member 4.png" alt="Team mate 4" />
             <h2 style={{color:"hsl(38, 100%, 50%)"}}>Naveen Kumar</h2>
             <p style={{fontWeight:"bold"}}>Chief Editor</p>
             <p>The perfectionist behind every final frame, our Chief Editor 
