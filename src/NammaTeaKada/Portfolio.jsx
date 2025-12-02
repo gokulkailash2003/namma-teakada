@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import './Portfolio.css';
 
 function Portfolio() {
@@ -39,7 +39,7 @@ function Portfolio() {
                 <h2 style={{color:"hsl(38,100%,50%)"}}>Wedding Photographs</h2>
                 <p>Our wedding photography seamlessly blends the rich traditions of cultural ceremonies with the spontaneity and joy of candid moments, capturing the true essence and emotion of every couple’s special day. Whether your celebration is grand or intimate, we focus on documenting genuine moments, heartfelt connections, and beautiful details that reflect the uniqueness of your love story. Through a harmonious mix of traditional formal portraits and natural, unscripted interactions, our images tell a complete and vibrant story—from timeless rituals to playful glances and heartfelt embraces—creating an album that evokes both the grandeur and personal spirit of your wedding day, preserving memories that you will cherish for a lifetime.</p>
                   <div className='more-photos-link'>
-                    <a href="/">More Photos</a>
+                    <Link to="/">More Photos</Link>
                   </div>
             </div>
             <div className='wedding-photos-gallery'>
@@ -58,7 +58,7 @@ function Portfolio() {
                 <h2 style={{color:"hsl(38,100%,50%)"}}>Birthday Photographs</h2>
                 <p>Our birthday photography captures the vibrant spirit and joyous celebrations of every milestone, blending the excitement of candid moments with the special traditions unique to each event. Whether it’s an intimate family gathering or a lively party with friends, we focus on preserving genuine smiles, heartfelt interactions, and the colorful details that make your celebration memorable. Through a perfect balance of posed portraits and spontaneous action shots, our images tell a lively and heartfelt story—from joyful laughter and surprise reactions to tender moments shared between loved ones—creating a collection of photos that reflect the energy and warmth of your birthday celebration, cherished for years to come.</p>
                   <div className='more-photos-link'>
-                    <a  href="/bday_photos">More Photos</a>
+                    <Link to="/bday_photos">More Photos</Link>
                   </div>
             </div>
           </section>
@@ -70,7 +70,7 @@ function Portfolio() {
                 <h2 style={{color:"hsl(38,100%,50%)"}}>Puberty Photographs</h2>
                 <p>Our puberty ceremony photography thoughtfully captures the meaningful transition and cultural significance of this important milestone, blending the solemn traditions with heartfelt, candid moments that highlight the essence of the occasion. Whether the event is a grand celebration with extended family or an intimate gathering, we focus on documenting genuine emotions, sacred rituals, and the vibrant details that make the day unique. By combining formal portraits with natural, spontaneous interactions, our images tell a complete and touching story—from the reverence of rituals to joyful smiles and emotional embraces—creating a timeless collection that honors the significance of this special rite of passage, preserving memories to cherish forever.</p>
                   <div className='more-photos-link'>
-                    <a  href="/">More Photos</a>
+                    <Link to="/">More Photos</Link>
                   </div>
             </div>
             <div className='wedding-photos-gallery'>
@@ -88,7 +88,7 @@ function Portfolio() {
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Corporate Event Photographs</h2>
                   <p>Our corporate event photography expertly captures the professional atmosphere and dynamic energy of every gathering, blending the formality of structured moments with the candid interactions that reveal authentic connections. Whether it’s a large conference, a product launch, or an intimate team meeting, we focus on documenting meaningful exchanges, keynote speeches, and the vibrant details that define the event’s purpose. By balancing posed group shots with spontaneous moments, our images tell a comprehensive and engaging story—from the seriousness of presentations to the warmth of networking smiles—creating a polished collection that reflects the professionalism and spirit of your corporate event, preserving memories that enhance your brand’s narrative.</p>
                   <div className='more-photos-link'>
-                  <a  href="/">More Photos</a>
+                  <Link to="/">More Photos</Link>
                   </div>
             </div>
          </section>
@@ -100,7 +100,7 @@ function Portfolio() {
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Baby Photoshoot </h2>
                   <p>Our baby photoshoot photography tenderly captures the innocence, joy, and precious milestones of early life, blending soft, intimate portraits with playful, candid moments that celebrate your little one’s unique personality. Whether in a cozy home setting or a whimsical studio, we focus on preserving genuine expressions, tiny details, and the loving bonds shared with family. By combining carefully styled shots with spontaneous interactions, our images tell a heartfelt story—from peaceful naps and curious gazes to joyful giggles and gentle embraces—creating a timeless collection that you will cherish forever as a beautiful memory of your baby’s earliest days.</p>
                   <div className='more-photos-link'>
-                  <a  href="/baby_shoot">More Photos</a>
+                  <Link to="/baby_shoot">More Photos</Link>
                 </div>
               </div>
               <div className='wedding-photos-gallery'>
@@ -118,7 +118,7 @@ function Portfolio() {
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Model Photoshoot</h2>
                   <p>Our model photoshoot photography is designed to showcase individuality, style, and confidence through striking, polished images that highlight both personality and versatility. Whether capturing high-fashion editorial looks, commercial portfolios, or creative concepts, we focus on bringing out the best in every model by blending artful lighting, dynamic poses, and authentic expressions. Our approach balances meticulous preparation with spontaneous creativity, resulting in a diverse collection that not only enhances professional portfolios but also tells a compelling visual story unique to each model’s journey and aspirations.</p>
                   <div className='more-photos-link'>
-                  <a  href="/">More Photos</a>
+                  <Link to="/">More Photos</Link>
                 </div>
               </div>
          </section>
@@ -130,7 +130,7 @@ function Portfolio() {
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Product Photoshoot</h2>
                   <p>Our product photoshoot photography is crafted to highlight the distinctive qualities and craftsmanship of every product with precision and artistry. Whether for e-commerce, advertising campaigns, or brand storytelling, we focus on capturing clean, detailed, and visually appealing images that emphasize texture, color, and design. Our approach combines expert lighting techniques, thoughtful composition, and attention to every small detail, resulting in a collection of photographs that not only showcase the product effectively but also enhance its market appeal and customer engagement by telling a compelling visual story.</p>
                   <div className='more-photos-link'>
-                  <a href="/">More Photos</a>
+                  <Link to="/">More Photos</Link>
                 </div>
               </div>
               <div className='wedding-photos-gallery'>
@@ -148,7 +148,7 @@ function Portfolio() {
                   <h2 style={{color:"hsl(38,100%,50%)"}}>Ad Shoot</h2>
                   <p>Our ad shoot photography is focused on creating powerful, eye-catching visuals that effectively convey your brand’s message and captivate your target audience. Whether for digital platforms, print media, or broadcast, we blend creative concepts with sharp execution to produce dynamic images that resonate emotionally and inspire action. By combining innovative styling, precise lighting, and compelling storytelling, our ad shoots elevate your campaign’s impact, ensuring your products, services, or ideas are presented with clarity, creativity, and maximum appeal.</p>
                   <div className='more-photos-link'>
-                  <a href="/">More Photos</a>
+                  <Link to="/">More Photos</Link>
                 </div>
               </div>
          </section>

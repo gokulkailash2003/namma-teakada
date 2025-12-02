@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
 
         <div className="cta-buttons">
           
-          <a href="/contact" className="cta-btn">Book a session</a>
+          <Link to="/contact" className="cta-btn">Book a session</Link>
         </div>
         </div>
       </section>
