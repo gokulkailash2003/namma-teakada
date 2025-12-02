@@ -37,7 +37,7 @@ function Header() {
         <h2><a href='/' style={{color: "hsl(38, 100%, 50%)", textDecoration: "none"}}>NAMMA TEAKADA</a></h2>
       </div>
       <nav className="nav">
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/aboutus">About Us</Link>
         <div className="nav-dropdown">
           <span className="dropdown-toggle">
