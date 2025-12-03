@@ -351,7 +351,7 @@
 /* Updated Header Styles for Home Page */
 
 /* Tablet Responsiveness */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .header {
     padding: 0.7rem 1rem;
     flex-direction: row;
@@ -375,7 +375,7 @@
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .header {
     flex-direction: column;
     padding: 0.5rem;

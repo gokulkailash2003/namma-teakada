@@ -48,7 +48,7 @@
 }
 
 /* Tablet responsiveness */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .services {
         padding: 2rem 1rem;
         border-radius: 20px;
@@ -80,7 +80,7 @@
 }
 
 /* Mobile responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .services {
         padding: 1.5rem 0.5rem;
         border-radius: 12px;

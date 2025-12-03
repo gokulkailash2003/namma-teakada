@@ -114,8 +114,8 @@
   align-items: center;
   justify-content: center;
 }
-/* TABLET RESPONSIVENESS (max-width: 900px) */
-@media (max-width: 900px) {
+/* TABLET RESPONSIVENESS (max-width: 1000px) */
+@media (max-width: 1000px) {
     .contact {
         padding: 3rem 1.5rem;
         margin-top: 100px;
@@ -139,8 +139,8 @@
     }
 }
 
-/* MOBILE RESPONSIVENESS (max-width: 600px) */
-@media (max-width: 600px) {
+/* MOBILE RESPONSIVENESS (max-width: 800px) */
+@media (max-width: 800px) {
     .contact {
         padding: 2rem 1rem;
         margin-top: 150px;

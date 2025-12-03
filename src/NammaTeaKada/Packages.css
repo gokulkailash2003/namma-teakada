@@ -31,7 +31,7 @@
     
 }
 /* for tab view */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .package-outer{
     margin-top: 90px;
     /* width: 950px; */
@@ -60,7 +60,7 @@
   }
 }
 /* for mobile view */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .package-outer{
     margin-top: 100px;
     /* margin-right: 50px; */

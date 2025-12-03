@@ -38,8 +38,8 @@
     text-align: center;
     color: hsl(38, 100%, 50%);
 }
-/* TABLET RESPONSIVENESS (max-width: 900px) */
-@media (max-width: 900px) {
+/* TABLET RESPONSIVENESS (max-width: 1000px) */
+@media (max-width: 1000px) {
     .academics {
         margin-top: 150px;
         margin-bottom: 100px;
@@ -59,8 +59,8 @@
     }
 }
 
-/* MOBILE RESPONSIVENESS (max-width: 600px) */
-@media (max-width: 600px) {
+/* MOBILE RESPONSIVENESS (max-width: 800px) */
+@media (max-width: 800px) {
     .academics {
         margin-top: 200px;
         margin-bottom: 80px;

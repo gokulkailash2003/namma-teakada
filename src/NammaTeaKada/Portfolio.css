@@ -57,7 +57,7 @@
   margin-top: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   /* *{
     background-color: black;
   } */
@@ -94,7 +94,7 @@
   height: 300px;
 }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
  
   .portfolio-main{
     margin-top: 105px;
