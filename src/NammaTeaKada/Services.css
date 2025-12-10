@@ -5,6 +5,9 @@
 *{
     padding: 0;
     margin: 0;
+    .services-section {
+        padding-top: 300px;
+    }
     box-sizing: border-box;
 }
 
@@ -78,6 +81,9 @@
 
 /* --- Tablet (≤992px) --- */
 @media (max-width: 992px) {
+    .services-section {
+        padding-top: 250px;
+    }
     .services {
         padding: 1.2rem 0.7rem;
         border-radius: 16px;
@@ -105,6 +111,9 @@
 
 /* --- Mobile Large (≤768px) --- */
 @media (max-width: 768px) {
+    .services {
+        padding-top: 200px;
+    }
     .services {
         padding: 0.8rem 0.3rem;
         border-radius: 10px;
@@ -136,6 +145,9 @@
 
 /* --- Mobile Small (≤600px) --- */
 @media (max-width: 600px) {
+    .services {
+        padding-top: 320px;
+    }
     .services {
         padding: 0.5rem 0.1rem;
         border-radius: 6px;

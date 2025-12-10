@@ -64,7 +64,7 @@
 /* --- Large Tablet (≤1200px) --- */
 @media (max-width: 1200px) {
     .academics-section {
-        padding: 4rem 1rem 2rem 1rem;
+        padding: 15rem 1rem 2rem 1rem;
     }
     .academics-content {
         flex-direction: column;
@@ -80,7 +80,7 @@
 /* --- Tablet (≤992px) --- */
 @media (max-width: 992px) {
     .academics-section {
-        padding: 3rem 0.7rem 1.5rem 0.7rem;
+        padding: 10rem 0.7rem 1.5rem 0.7rem;
     }
     .academics-content {
         gap: 1.2rem;
@@ -100,7 +100,7 @@
 /* --- Mobile Large (≤768px) --- */
 @media (max-width: 768px) {
     .academics-section {
-        padding: 2rem 0.5rem 1rem 0.5rem;
+        padding: 7rem 0.5rem 1rem 0.5rem;
     }
     .academics-content {
         gap: 1rem;
@@ -120,7 +120,7 @@
 /* --- Mobile Small (≤600px) --- */
 @media (max-width: 600px) {
     .academics-section {
-        padding: 1.5rem 0.2rem 0.7rem 0.2rem;
+        padding: 20rem 0.2rem 0.7rem 0.2rem;
     }
     .academics-content {
         gap: 0.7rem;

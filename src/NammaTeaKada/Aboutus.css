@@ -83,7 +83,7 @@
     font-size: 1.1rem;
   }
   .about-section {
-    padding-top: 120px;
+    padding-top: 300px;
   }
 }
 
@@ -97,7 +97,7 @@
     font-size: 1.5rem;
   }
   .about-section {
-    padding-top: 100px;
+    padding-top: 250px;
   }
   .about-content > p {
     font-size: 1rem;
@@ -128,7 +128,7 @@
   .about-section {
     padding: 0.7rem;
     border-radius: 8px;
-    padding-top: 80px;
+    padding-top: 200px;
   }
 }
 
@@ -141,7 +141,7 @@
   .about-section {
     padding: 0.3rem;
     border-radius: 5px;
-    padding-top: 60px;
+    padding-top: 320px;
   }
 }
 

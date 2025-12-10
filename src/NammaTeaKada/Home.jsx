@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
   const marqueeRef = useRef(null);
   return (
-    <main>
+    <main className="home-main">
       <section className="section1">
         <div className="cont1" style={{backgroundImage: "url('/assets/images/IMG_0646.JPG')",  backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
         <h1 className="home-title">
