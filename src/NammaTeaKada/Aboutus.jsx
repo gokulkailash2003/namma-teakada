@@ -63,7 +63,7 @@ function Aboutus() {
              experiences that inspire and connect.</p>
           </div>
 
-          <div className='team-member-2'>
+          {/* <div className='team-member-2'>
             <img src="\assets\images\team members\member 1.jpg" alt="Team mate 2" />
             <h2 style={{color:"hsl(38, 100%, 50%)"}}>Karthikeyan P</h2>
             <p style={{fontWeight:"bold"}}>Administrator</p>
@@ -71,7 +71,7 @@ function Aboutus() {
               team ensures everything runs smoothly behind the scenes. 
               They keep the creative process organized and efficient, 
               allowing our artists to focus on what they do best.</p>
-          </div>
+          </div> */}
 
           <div className='team-member-5'>
            <img src="\assets\images\team members\member 5.PNG" alt="Team mate 1" />

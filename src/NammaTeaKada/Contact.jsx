@@ -126,7 +126,8 @@ function Contact(){
             <strong style={{color:"hsl(38,100%,50%)"}}>Address:</strong> #1, Virugambakkam, Chennai, TN - 600 0092
           </p>
           <p>
-            <strong style={{color:"hsl(38,100%,50%)"}}>Phone:</strong> +91-86108 98272 / +91-95512 96152
+            <strong style={{color:"hsl(38,100%,50%)"}}>Phone:</strong> +91-86108 98272 
+            
           </p>
           <p>
             <strong style={{color:"hsl(38,100%,50%)"}}>Email:</strong> <a href="mailto:nammateakada2k17@gmail.com">nammateakada2k17@gmail.com</a>

@@ -36,11 +36,7 @@
     border-right: 6px solid transparent;
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    left: 0;
-}
+
 
 .header {
     display: flex;
@@ -121,83 +117,19 @@
     cursor: pointer;
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: black;
-    min-width: 220px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 1000;
-    border-radius: 4px;
-    padding: 0.5rem 0;
-}
 
-.nav-dropdown:hover > .dropdown-menu {
-    display: block;
-}
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: rgb(0, 0, 0);
-    min-width: 180px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 1000;
-    border-radius: 4px;
-    padding: 0.5rem 0;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    line-height: 20px;
-}
-.dropdown-menu::after {
-    background: none;
-    transform: none;
-}
+
+
+
 
 .has-submenu {
     position: relative;
 }
 
-.has-submenu:hover > .submenu {
-    display: block;
-    cursor: pointer;
-    margin-top: -8px;
-}
 
-.submenu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    background: black;
-    color: white;
-    min-width: 200px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    border-radius: 4px;
-    padding: 0.5rem 0;
-}
 
-.submenu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    background: rgb(0, 0, 0);
-    min-width: 200px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    border-radius: 4px;
-    padding: 0.5rem 0;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-}
-.submenu::after {
-    background: black;
-    transform: none;
-}
+
 
 .submenu li a:hover {
     color: #000000;
@@ -350,7 +282,50 @@
 
 /* Updated Header Styles for Home Page */
 
-/* Tablet Responsiveness */
+/* --- Dropdown Menu (Desktop) --- */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: black;
+    min-width: 220px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+}
+.nav-dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+/* --- Submenu (Desktop) --- */
+.submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: black;
+    color: white;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.has-submenu:hover > .submenu {
+    display: block;
+    cursor: pointer;
+    margin-top: -8px;
+}
+.submenu::after {
+    background: black;
+    transform: none;
+}
 @media (max-width: 1000px) {
   .header {
     padding: 0.7rem 1rem;
@@ -374,7 +349,7 @@
   }
 }
 
-/* Mobile Responsiveness */
+/* --- Mobile Responsiveness --- */
 @media (max-width: 800px) {
     .header {
         flex-direction: column;
@@ -402,15 +377,14 @@
         margin: 0.2rem;
     }
 
-    /* Make submenu (side menu) visible and positioned to the right of parent on mobile */
+    /* Mobile submenu: hidden by default, slides in from right when .submenu-open is present */
     .submenu {
-        position: fixed !important;
-        left: 60vw;
+        position: fixed;
+        left: 100vw;
         top: 0;
-        display: none;
         background: black;
         color: white;
-        min-width: 40vw;
+        min-width: 60vw;
         max-width: 80vw;
         max-height: 100vh;
         overflow-y: auto;
@@ -421,10 +395,21 @@
         font-weight: 300;
         margin-top: 0;
         z-index: 9999;
+        transition: left 0.3s cubic-bezier(0.4,0,0.2,1), opacity 0.3s, visibility 0.3s;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
     }
+    .submenu.submenu-open {
+        left: 40vw;
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    /* Remove hover/focus dependency for mobile submenu */
     .has-submenu:hover > .submenu,
     .has-submenu:focus-within > .submenu {
-        display: block !important;
+        /* No effect on mobile, submenu is controlled by .submenu-open class */
     }
     .dropdown-menu {
         min-width: 180px;
