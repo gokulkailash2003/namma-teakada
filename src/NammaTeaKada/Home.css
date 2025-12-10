@@ -44,218 +44,240 @@ main{
   text-shadow: 2px 2px 4px hsl(38, 100%, 50%);
   animation: forwards backgroundFadeIn 0.5s ease-in;
 }
-/* TABLET RESPONSIVENESS (max-width: 1000px) */
-@media (max-width: 1000px) {
+
+/* --- Large Tablet (≤1200px) --- */
+@media (max-width: 1200px) {
   .header {
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1.2rem;
     flex-direction: row;
     justify-content: left;
-    margin-left: 0px;
     gap: 0.5rem;
     font-family: "Oswald", sans-serif;
     width: 100vw;
-    
   }
-  .section1{
+  .section1 {
     height: 70vh;
-    width: 100vw ; /* Adjusted to fit content */
-    max-width: 90%; /* Added max-width for better scaling */
-    margin: 0 auto; /* Center the section */
+    width: 100vw;
+    max-width: 95%;
+    margin: 0 auto;
   }
-    .cont1 {
-        padding: 1.5rem;
-        height: 70vh;
-        width: 100vw;
-    }
-
-    .home-title {
-        font-size: 3.5rem;
-        margin-left: 20px;
-        margin-top: 80px;
-        text-align: left;
-    }
-
-    .home-para {
-        font-size: 1.1rem;
-        /* margin: 0 auto; */
-        margin-left: 50px;
-        text-align: left;
-        padding: 0 1rem;
-    }
-    .subtitle{
-      font-size: 1.2rem;
-      margin-left: 130px;
-      margin-top: 10px;
-      text-align: left;
-      padding: 0 1rem;
-    }
-
-    .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-        margin: 20px auto;
-    }
-
-    .cta-btn {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-        /* margin-top: 100px; */
-    }
-
-    .section2 {
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    .section2>.cont2>.about-title {
-        font-size: 2rem;
-        margin-left: 50px;
-    }
-
-    .section2>.cont2>p {
-        font-size: 1.1rem;
-        padding: 0 1rem;
-        width: 50vw;
-        margin-left: 40px;
-       
-    }
-
-    .homeimg {
-        height: 70vh;
-        width: 100vw;
-    }
-
-    .section3 {
-        height: 70vh;
-        flex-direction: column;
-        padding: 1rem;
-        width: 100vw;
-    }
-
-    .section3>.scroll-img {
-        flex-direction: column;
-    }
-
+  .cont1 {
+    padding: 1.5rem;
+    height: 70vh;
+    width: 100vw;
   }
-/* MOBILE RESPONSIVENESS (max-width: 800px) */
-@media (max-width: 800px) {
-  .header {
-    padding: 0.7rem 1rem;
-    flex-direction: row;
-    justify-content: left;
-    margin-left: 0px;
-    gap: 0rem;
-    font-family: "Oswald", sans-serif;
+  .home-title {
+    font-size: 3.2rem;
+    margin-left: 20px;
+    margin-top: 120px;
+    text-align: left;
   }
+  .home-para {
+    font-size: 1.1rem;
+    margin-left: 30px;
+    text-align: left;
+    padding: 0 1rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+    margin-left: 80px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 0 1rem;
+  }
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .cta-btn {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+  .section2 {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .section2>.cont2>.about-title {
+    font-size: 1.7rem;
+    margin-left: 30px;
+  }
+  .section2>.cont2>p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    width: 60vw;
+    margin-left: 20px;
+  }
+  .homeimg {
+    height: 60vh;
+    width: 100vw;
+  }
+  .section3 {
+    height: 60vh;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100vw;
+  }
+  .section3>.scroll-img {
+    flex-direction: column;
+  }
+}
 
-  .section1{
+/* --- Tablet (≤992px) --- */
+@media (max-width: 992px) {
+  .home-title {
+    font-size: 2.2rem;
+    margin-left: 10px;
     margin-top: 100px;
-    height: 70vh;
-    width: auto; /* Adjusted to fit content */
-    max-width: 95%; /* Added max-width for better scaling */
-    margin: 0 auto; /* Center the section */
   }
-    .cont1 {
-        padding: 1rem;
-        width: 100vw;
-        min-height: 70vh;
-        margin-top: 270px;
-        
-    }
+  .home-para {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  .subtitle {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+  .section2>.cont2>.about-title {
+    font-size: 1.3rem;
+    margin-left: 10px;
+  }
+  .section2>.cont2>p {
+    font-size: 0.95rem;
+    margin-left: 10px;
+    width: 80vw;
+  }
+  .homeimg {
+    height: 40vh;
+    width: 100vw;
+  }
+}
 
-    .home-title {
-        margin-top: 40px;
-        font-size: 2.5rem;
-        margin: 20px auto; 
-        text-align: left;
-        
-    }
+/* --- Mobile Large (≤768px) --- */
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 0.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .section1 {
+    margin-top: 100px;
+    height: 50vh;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+  .cont1 {
+    padding: 0.7rem;
+    width: 100vw;
+    min-height: 50vh;
+    margin-top: 120px;
+  }
+  .home-title {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    text-align: left;
+  }
+  .home-para {
+    font-size: 0.9rem;
+    margin: 0 auto;
+    margin-left: 0;
+    text-align: left;
+    padding: 0 0.5rem;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 0 0.5rem;
+  }
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .cta-btn {
+    font-size: 0.8rem;
+    padding: 7px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .section2 {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .section2>.cont2 {
+    padding: 0.5rem;
+    margin-left: 0;
+  }
+  .section2>.cont2>.about-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .section2>.cont2>p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    padding: 0 0.5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .homeimg {
+    height: 200px;
+    width: 100vw;
+    padding: 0;
+  }
+  .cont2 {
+    padding: 0.5rem 0.2rem;
+  }
+  .section3 {
+    height: auto;
+    min-height: 40vh;
+    flex-direction: column;
+    padding: 0.3rem;
+  }
+  .section3>.scroll-img {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
 
-    .home-para {
-        font-size: 1rem;
-        margin: 0 auto;
-        margin-left: -100px;
-        text-align: left;
-        padding: 0 0.5rem;
-    }
-    .subtitle{
-      font-size: 1rem;
-      margin-left: 190px;
-      margin-top: 10px;
-      text-align: left;
-      padding: 0 0.5rem;
-    }
-
-    .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-        margin: 15px auto;
-    }
-
-    .cta-btn {
-        font-size: 0.85rem;
-        padding: 8px 15px;
-        width: 100%;
-        text-align: center;
-    }
-
-    @keyframes alternateGlow {
-        from {
-            box-shadow: 0px 0px 5px 2px hsl(0, 0%, 0%);
-        }
-        to {
-            box-shadow: 0px 0px 25px 8px hsl(38, 100%, 50%);
-        }
-    }
-
-    .section2 {
-        flex-direction: column;
-        padding: 0.5rem;
-    }
-
-    .section2>.cont2 {
-        padding: 1rem;
-        /* text-align: left; */
-        margin-left: -100px;
-        
-    }
-
-    .section2>.cont2>.about-title {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-        margin-left: 110px;
-        text-align: center;
-    }
-
-    .section2>.cont2>p {
-        font-size: 0.95rem;
-        line-height: 1.5;
-        padding: 0 0.5rem;
-        margin-left: 100px;
-        text-align: center;
-    }
-
-    .homeimg {
-        height: 300px;
-        width: 200px;
-        padding: 0;
-    }
-
-    .cont2 {
-        padding: 1rem 0.5rem;
-    }
-
-    .section3 {
-        height: auto;
-        min-height: 60vh;
-        flex-direction: column;
-        padding: 0.5rem;
-    }
-
-    .section3>.scroll-img {
-        flex-direction: column;
-        gap: 1rem;
-    }
+/* --- Mobile Small (≤600px) --- */
+@media (max-width: 600px) {
+  .header {
+    padding: 0.2rem 0.1rem;
+  }
+  .section1 {
+    margin-top: 80px;
+    height: 40vh;
+  }
+  .cont1 {
+    padding: 0.3rem;
+    margin-top: 60px;
+  }
+  .home-title {
+    font-size: 1.1rem;
+    margin: 5px auto;
+  }
+  .home-para {
+    font-size: 0.7rem;
+  }
+  .subtitle {
+    font-size: 0.7rem;
+    margin-left: 0;
+  }
+  .section2>.cont2>.about-title {
+    font-size: 0.8rem;
+  }
+  .section2>.cont2>p {
+    font-size: 0.7rem;
+  }
+  .homeimg {
+    height: 120px;
+  }
 }
 
 @keyframes backgroundFadeIn {

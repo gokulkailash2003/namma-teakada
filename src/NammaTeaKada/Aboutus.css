@@ -68,91 +68,81 @@
   font-size: 1.2rem;
 }
 
-@media (max-width: 1000px) {
+
+/* --- Large Tablet (≤1200px) --- */
+@media (max-width: 1200px) {
   .about-container {
     padding: 2rem 1rem;
-    margin-top: 150px;
+    margin-top: 100px;
   }
-  
   .about-container h1 {
     font-size: 2rem;
     margin-left: 10px;
   }
-  
   .about-content > p {
     font-size: 1.1rem;
   }
-  
-  .about-section h2 {
-    font-size: 1.5rem;
-  }
-  .about-team {
-    flex-direction: column;
-    gap: 2rem;
-    width: 100%;
-    height: auto;
-    position: static;
-  }
-  .team-member-1,
-  .team-member-2,
-  .team-member-3,
-  .team-member-4,
-  .team-member-5 {
-    position: static;
-    width: 100%;
-    height: auto;
-    margin-bottom: 2rem;
-    box-sizing: border-box;
-  }
-  .team-member-1 img,
-  .team-member-2 img,
-  .team-member-3 img,
-  .team-member-4 img,
-  .team-member-5 img {
-    width: 80px;
-    height: 80px;
-  }
-  .team-header {
-    text-align: center;
+  .about-section {
+    padding-top: 120px;
   }
 }
 
-@media (max-width: 800px) {
+/* --- Tablet (≤992px) --- */
+@media (max-width: 992px) {
   .about-container {
-    padding: 1rem 0.5rem;
-    margin-top: 150px;
+    padding: 1.5rem 0.7rem;
+    margin-top: 80px;
   }
   .about-container h1 {
-    font-size: 2rem;
-    margin-left: 10px;
+    font-size: 1.5rem;
   }
   .about-section {
-    padding: 1rem;
-    border-radius: 10px;
+    padding-top: 100px;
+  }
+  .about-content > p {
+    font-size: 1rem;
   }
   .about-team {
-    gap: 1rem;
-  }
-  .team-member-1,
-  .team-member-2,
-  .team-member-3,
-  .team-member-4,
-  .team-member-5 {
-    padding: 0.5rem;
-    font-size: 0.95rem;
+    gap: 1.2rem;
   }
   .team-member-1 img,
   .team-member-2 img,
   .team-member-3 img,
   .team-member-4 img,
   .team-member-5 img {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
 }
-ul{
-  list-style: none;
-  padding-left: 0;
+
+/* --- Mobile Large (≤768px) --- */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1rem 0.3rem;
+    margin-top: 60px;
+  }
+  .about-container h1 {
+    font-size: 1.1rem;
+    margin-left: 5px;
+  }
+  .about-section {
+    padding: 0.7rem;
+    border-radius: 8px;
+    padding-top: 80px;
+  }
+}
+
+/* --- Mobile Small (≤600px) --- */
+@media (max-width: 600px) {
+  .about-container {
+    padding: 0.5rem 0.1rem;
+    margin-top: 30px;
+  }
+  .about-section {
+    padding: 0.3rem;
+    border-radius: 5px;
+    padding-top: 60px;
+  }
 }
 
 .team-members {

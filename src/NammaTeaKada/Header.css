@@ -326,57 +326,70 @@
     background: black;
     transform: none;
 }
-@media (max-width: 1000px) {
-  .header {
-    padding: 0.7rem 1rem;
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
-  .logo-image {
-    height: 40px;
-    width: 40px;
-  }
-
-  .logo > h2 {
-    font-size: 1.2rem;
-  }
-
-  .nav a {
-    font-size: 0.95rem;
-    padding: 0.4rem 0.8rem;
-    margin: 0 0.5rem;
-  }
+/* --- Large Tablet (≤1200px) --- */
+@media (max-width: 1200px) {
+    .header {
+        padding: 0.7rem 1.2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-image {
+        height: 44px;
+        width: 44px;
+    }
+    .logo > h2 {
+        font-size: 1.25rem;
+    }
+    .nav a {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+        margin: 0 0.5rem;
+    }
 }
 
-/* --- Mobile Responsiveness --- */
-@media (max-width: 800px) {
+/* --- Tablet (≤992px) --- */
+@media (max-width: 992px) {
+    .header {
+        padding: 0.6rem 0.8rem;
+    }
+    .logo-image {
+        height: 38px;
+        width: 38px;
+    }
+    .logo > h2 {
+        font-size: 1.1rem;
+    }
+    .nav a {
+        font-size: 0.93rem;
+        padding: 0.35rem 0.7rem;
+        margin: 0 0.3rem;
+    }
+}
+
+/* --- Mobile Large (≤768px) --- */
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
         padding: 0.5rem;
         gap: 0.5rem;
     }
-
     .logo-image {
-        height: 35px;
-        width: 35px;
+        height: 32px;
+        width: 32px;
     }
-
     .logo > h2 {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
-
     .nav {
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .nav a {
-        font-size: 0.85rem;
-        padding: 0.3rem 0.5rem;
-        margin: 0.2rem;
+        font-size: 0.82rem;
+        padding: 0.25rem 0.4rem;
+        margin: 0.15rem;
     }
-
     /* Mobile submenu: hidden by default, slides in from right when .submenu-open is present */
     .submenu {
         position: fixed;
@@ -384,8 +397,8 @@
         top: 0;
         background: black;
         color: white;
-        min-width: 60vw;
-        max-width: 80vw;
+        min-width: 70vw;
+        max-width: 90vw;
         max-height: 100vh;
         overflow-y: auto;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
@@ -401,18 +414,13 @@
         pointer-events: none;
     }
     .submenu.submenu-open {
-        left: 40vw;
+        left: 30vw;
         visibility: visible;
         opacity: 1;
         pointer-events: auto;
     }
-    /* Remove hover/focus dependency for mobile submenu */
-    .has-submenu:hover > .submenu,
-    .has-submenu:focus-within > .submenu {
-        /* No effect on mobile, submenu is controlled by .submenu-open class */
-    }
     .dropdown-menu {
-        min-width: 180px;
+        min-width: 150px;
         width: auto;
         left: 0;
         border-radius: 4px;
@@ -421,8 +429,42 @@
         z-index: 9998;
     }
     .dropdown-menu li {
-        width: 180px;
-        padding: 0.7rem 1rem;
+        width: 150px;
+        padding: 0.6rem 0.8rem;
         border-radius: 4px;
+    }
+}
+
+/* --- Mobile Small (≤600px) --- */
+@media (max-width: 600px) {
+    .header {
+        padding: 0.3rem 0.2rem;
+    }
+    .logo-image {
+        height: 26px;
+        width: 26px;
+    }
+    .logo > h2 {
+        font-size: 0.8rem;
+    }
+    .nav a {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.2rem;
+        margin: 0.1rem;
+    }
+    .submenu {
+        min-width: 90vw;
+        left: 10vw;
+        padding: 0.3rem 0.3rem 0.3rem 0.7rem;
+    }
+    .submenu.submenu-open {
+        left: 0vw;
+    }
+    .dropdown-menu {
+        min-width: 100px;
+    }
+    .dropdown-menu li {
+        width: 100px;
+        padding: 0.4rem 0.5rem;
     }
 }

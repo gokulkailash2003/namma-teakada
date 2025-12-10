@@ -60,24 +60,79 @@
 }
 
 /* MOBILE RESPONSIVENESS (max-width: 800px) */
-@media (max-width: 800px) {
-    .academics {
-        margin-top: 200px;
-        margin-bottom: 80px;
-        gap: 1rem;
-        padding: 0.5rem;
-        height: 10vh;
-    }
 
-    .academic-para {
+/* --- Large Tablet (≤1200px) --- */
+@media (max-width: 1200px) {
+    .academics-section {
+        padding: 4rem 1rem 2rem 1rem;
+    }
+    .academics-content {
         flex-direction: column;
-        margin-left: 5px;
-        font-size: 1rem;
-        text-align: center;
+        gap: 1.5rem;
     }
+    .academics-image {
+        width: 80vw;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
 
-    .academics-offers {
-        max-width: 95vw;
+/* --- Tablet (≤992px) --- */
+@media (max-width: 992px) {
+    .academics-section {
+        padding: 3rem 0.7rem 1.5rem 0.7rem;
+    }
+    .academics-content {
+        gap: 1.2rem;
+    }
+    .academics-image {
+        width: 85vw;
+        max-width: 320px;
+    }
+    .academics-title {
+        font-size: 1.3rem;
+    }
+    .academics-description {
+        font-size: 1rem;
+    }
+}
+
+/* --- Mobile Large (≤768px) --- */
+@media (max-width: 768px) {
+    .academics-section {
+        padding: 2rem 0.5rem 1rem 0.5rem;
+    }
+    .academics-content {
+        gap: 1rem;
+    }
+    .academics-image {
+        width: 90vw;
+        max-width: 250px;
+    }
+    .academics-title {
+        font-size: 1.1rem;
+    }
+    .academics-description {
         font-size: 0.95rem;
+    }
+}
+
+/* --- Mobile Small (≤600px) --- */
+@media (max-width: 600px) {
+    .academics-section {
+        padding: 1.5rem 0.2rem 0.7rem 0.2rem;
+    }
+    .academics-content {
+        gap: 0.7rem;
+    }
+    .academics-image {
+        width: 95vw;
+        max-width: 160px;
+    }
+    .academics-title {
+        font-size: 0.95rem;
+    }
+    .academics-description {
+        font-size: 0.8rem;
     }
 }

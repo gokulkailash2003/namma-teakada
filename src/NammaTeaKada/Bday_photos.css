@@ -104,11 +104,13 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 } 
 
-@media (max-width: 1600px) {
+
+/* --- Large Tablet (≤1200px) --- */
+@media (max-width: 1200px) {
   .bday_photos {
     margin-top: 0 !important;
     height: auto !important;
-    padding-top: 80px; /* Added extra space at the top */
+    padding-top: 80px;
   }
   .bday1 {
     position: static !important;
@@ -138,37 +140,48 @@
   }
 }
 
-@media (max-width: 750px) {
+/* --- Tablet (≤992px) --- */
+@media (max-width: 992px) {
   .bday_photos {
-    margin-top: 0 !important;
-    height: auto !important;
-    padding-top: 60px; /* Added extra space at the top */
-  }
-  .bday1 {
-    position: static !important;
-    margin-top: 0 !important;
-    height: auto !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-top: 60px;
   }
   .bday_img1, .bday_img2, .bday_img3, .bday_img4, .bday_img5, .bday_img6 {
-    position: static;
-    width: 98%;
     max-width: 320px;
-    margin-bottom: 16px;
-    left: unset;
-    top: unset;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 20px;
   }
   .bday1 img {
-    width: 98%;
     max-width: 320px;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* --- Mobile Large (≤768px) --- */
+@media (max-width: 768px) {
+  .bday_photos {
+    padding-top: 40px;
+  }
+  .bday_img1, .bday_img2, .bday_img3, .bday_img4, .bday_img5, .bday_img6 {
+    max-width: 250px;
+    margin-bottom: 14px;
+  }
+  .bday1 img {
+    max-width: 250px;
+    margin-bottom: 14px;
+  }
+}
+
+/* --- Mobile Small (≤600px) --- */
+@media (max-width: 600px) {
+  .bday_photos {
+    padding-top: 20px;
+  }
+  .bday_img1, .bday_img2, .bday_img3, .bday_img4, .bday_img5, .bday_img6 {
+    max-width: 160px;
+    margin-bottom: 8px;
+  }
+  .bday1 img {
+    max-width: 160px;
+    margin-bottom: 8px;
   }
 }
 .footer{
