@@ -171,7 +171,7 @@ ul{
   display: flex;
   gap: 6rem;
   /* border: 2px solid black; */
-  height: 920px;
+  height: 650px;
   width: 1180px;
   position: relative;
 }
@@ -199,11 +199,11 @@ ul{
   border-radius: 50%;
   margin-bottom: 1rem;
 }
-.team-member-2{
+/* .team-member-2{
   display: flex;
   flex-direction: column;
   /* border: 2px solid black; */
-  border-radius: 20px;
+  /* border-radius: 20px;
   background-color: black;
   color: white;
   padding: 1rem;
@@ -223,7 +223,7 @@ ul{
   height: 150px;
   border-radius: 50%;
   margin-bottom: 1rem;
-}
+} */  
 
 .team-member-5{
   display: flex;
@@ -236,8 +236,8 @@ ul{
   width: 575px;
   height: 300px;
   position: absolute;
-  bottom: 300px;
-  left: 0;
+  right: 0px;
+  top: 0;
   /* top: 20px; */
   box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
 }
@@ -263,7 +263,7 @@ ul{
   height: 300px;
   position: absolute;
   right: 0;
-  bottom: 300px;
+  bottom: 00px;
   box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
 }
 .team-member-3:hover{
@@ -289,8 +289,8 @@ ul{
   position: absolute;
   margin-top: 30px;
   bottom: 0px;
-  right: 300px;
-  top: 610px;
+  left: 0px;
+  bottom: 00px;
   box-shadow: 4px 4px 20px 5px hsl(0, 0%, 0%);
 }
 .team-member-4:hover{
