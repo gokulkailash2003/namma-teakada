@@ -120,6 +120,7 @@ main{
   .homeimg {
     height: 30vh;
     width: 50vw;
+    object-fit: contain;
   }
   .section3 {
     height: 60vh;
@@ -171,6 +172,7 @@ main{
   .homeimg {
     height: 400px;
     width: 500px;
+    object-fit: contain;
   }
 }
 
@@ -257,6 +259,7 @@ main{
     height: 200px;
     width: 100px;
     padding: 0;
+    object-fit: contain;
   }
   .cont2 {
     padding: 0.5rem 0.2rem;
@@ -311,6 +314,7 @@ main{
   .homeimg {
     height: 120px;
     width: 200px;
+    object-fit: contain;
   }
   .section3 {
     margin-top: 400px;
