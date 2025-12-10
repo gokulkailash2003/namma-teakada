@@ -250,7 +250,7 @@
 /* --- Mobile Large (≤768px) --- */
 @media (max-width: 768px) {
   .baby_shoot {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .baby1 {
     gap: 14px;
@@ -268,7 +268,7 @@
 /* --- Mobile Small (≤600px) --- */
 @media (max-width: 600px) {
   .baby_shoot {
-    padding-top: 30px;
+    padding-top: 100px;
   }
   .baby1 {
     gap: 8px;
