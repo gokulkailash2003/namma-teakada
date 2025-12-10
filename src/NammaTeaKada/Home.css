@@ -255,7 +255,7 @@ main{
   }
   .homeimg {
     height: 200px;
-    width: 100vw;
+    width: 100px;
     padding: 0;
   }
   .cont2 {
@@ -310,6 +310,7 @@ main{
   }
   .homeimg {
     height: 120px;
+    width: 200px;
   }
   .section3 {
     margin-top: 400px;
